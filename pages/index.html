@@ -1,0 +1,318 @@
+<html>
+<head>
+ <title>世上只有妈妈（手机）好</title>
+</head>
+<body>
+
+<h1>Flappy Birdy!</h1>
+
+<p>Welcome to Flappy Bird
+Here will be the game</p>
+
+
+<ul>
+How to play:
+<li>- 杀了Flappy.</li>
+<li>-杀了别人.</li>
+<li>-杀了自己</li>
+</ul>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.7879665216405!2d0.08946191579595772!3d52.21090057975685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8774a3fdc414b%3A0xe98fb897497ce850!2sWilliam+Gates+Building%2C+15+JJ+Thomson+Ave%2C+Cambridge+CB3+0FD!5e0!3m2!1szh-CN!2suk!4v1564479924158!5m2!1szh-CN!2suk" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</body>
+
+</html>
+
+<p>
+ <a href="example.html">Here will be the game</a>
+</p>
+<head>
+ <title>Cambridge Coding Academy Flappy Bird</title>
+ <link rel="stylesheet" href="../assets/cca.css">
+ <script type="text/javascript" src="../lib/phaser.min.js"></script>
+ <script type="text/javascript" src="../js/flappy.js"></script>
+</head>
+<body>
+ <div id="header">
+ <h1 id="flappy">Flappy Bird</h1>
+ <div id="cca">
+ <a href="http://cambridgecoding.com">
+ <img src="http://cambridgecoding.com/assets/images/logos/logo_cca.png"
+ id="logo">
+ <p>My very own flappy thing</p>
+ </a>
+ </div>
+ </div>
+ <div id="game"> </div>
+ <div id="footer">
+ <p>Cambridge Coding Academy</p>
+ </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Flappy Birdy</title>
+ </head>
+ <body>
+ <h1>Flappy Birdy!</h1>
+ <p>Welcome to Flappy Bird.</p>
+ <p>
+   <a href="example.html">Here will be the game</a>
+ </p>
+ <img src="../assets/screenshot.png" />
+ <p>How to play:</p>
+ <ul>
+ <li>Press SPACE to flap your wings.</li>
+ <li>Avoid the pipes.</li>
+ <li>If you crash, just try again!</li>
+ </ul>
+ </body>
+</html>
+<head>
+ <title>Flappy Birdy</title>
+ <link rel="stylesheet" href="../assets/style.css"/>
+</head>
+font-size: 16px;
+font-style: italic;
+font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+<p>Best scores:</p>
+<ul>
+ <li class="gold">Me</li>
+ <li class="score">Also me</li>
+ <li class="score">Me again (I'm the best)</li>
+</ul>
+h1 {
+ color: darkblue;
+}
+.score {
+ color: gray;
+}
+.gold {
+ color: gold;
+}
+<p id="gameLink">
+ <a href="example.html">Here will be the game</a>
+</p>
+#gameLink {
+ text-align: center;
+ border: 1px solid gray;
+}
+<div class="container">
+  <h1>Flappy Birdy!</h1>
+   <p>The best Flappy Birdy game there is!</p>
+   <div class="row">
+  </div>
+</div>
+<div class="col-md-6">
+ <p id="gameLink">
+ <a href="example.html">Here will be the game</a>
+ </p>
+ </div>
+ <div class="col-md-6">
+ <p>The highest scorers are:</p>
+ <ul>
+ <li class="gold">Me</li>
+ <li class="score">Myself</li>
+ <li class="score">I</li>
+ </ul>
+ </div>
+ <div class="col-xs-8">
+ <p id="gameLink">
+ <a href="example.html">
+ <img src="../assets/screenshot.png" class="img-responsive" />
+ </a>
+ </p>
+</div>
+<div class="container">
+ <div class="jumbotron">
+ <h1>Bob's Flappy Bird.</h1>
+ <p>Welcome to the best flappy bird game there is!</p>
+ </div>
+ <div class="row">
+ <div class="col-md-4">
+ <img src="../assets/screenshotStart.png" class="img-circle img-responsive" />
+ </div>
+ <div class="col-md-4">
+ <img src="../assets/screenshot.png" class="img-rounded img-responsive" />
+ </div>
+ <div class="col-md-4">
+ <img src="../assets/screenshotOver.png" class="img-thumbnail img-responsive" />
+ </div>
+</div>
+<script type="text/javascript" src="../lib/jquery.js"></script>
+ <script type="text/javascript" src="../js/interactivity.js"></script>
+ </body>
+</html>
+ jQuery("#credits").on("click", function() {
+ var message = "Game created by Bob!";
+ jQuery("#credits").append(
+ "<p>" + message + "</p>"
+ );
+});
+<div>
+ <button type="button" class="btn btn-default" id="scoresbtn">Scores</button>
+ <button type="button" class="btn btn-default" id="creditsbtn">Credits</button>
+ <button type="button" class="btn btn-default" id="helpbtn">Help</button>
+</div>
+<div>
+ <div id="content">
+ </div>
+</div>
+jQuery("#scoresbtn").on("click", function() {
+ jQuery("#content").empty();
+ jQuery("#content").append(
+ "<ul>" +
+ "<li>" + "Me" + "</li>" +
+ "<li>" + "Also me" + "</li>" +
+ "<li>" + "Me again" + "</li>" +
+ "</ul>"
+ );
+});
+jQuery("#creditsbtn").on("click", function() {
+ jQuery("#content").empty();
+ jQuery("#content").append(
+ "<div>" + "Game created by Bob!" + "</div>"
+ );
+});
+jQuery("#helpbtn").on("click", function() {
+ jQuery("#content").empty();
+ jQuery("#content").append(
+ "<ul>"
+ + "<li>" + "Press SPACE to flap your wings" + "</li>"
+ + "<li>" + "Avoid the incoming pipes" + "</li>"
+ + "</ul>"
+ );
+ });
+ <script type="text/javascript" src="../lib/phaser.min.js"></script>
+  <script type="text/javascript" src="../js/flappy.js"></script>
+ </body>
+ <div id="game"></div>
+ var playerName = prompt("What's your name?");
+ var scoreEntry = "<li>" + playerName + ":" + score.toString() + "</li>";
+ function gameOver(){
+ registerScore(score);
+ game.state.restart();
+}
+<a href="https://twitter.com/share"
+ id="sharing"
+ target="_blank"
+>
+ Share your score on Twitter
+</a>
+jQuery("#sharing").on("click", function(){
+ var text =
+ "I scored " +
+ score.toString() +
+ " in Flappy Birdy! Can you do better?";
+ var escapedText = encodeURIComponent(text);
+ var url =
+ "https:twitter.com/share?text=" +
+ escapedText
+ jQuery("#sharing").attr("href", url);
+});
+> git add --all
+> git commit -m "website is ready, preparing to publish."
+> git push
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Bob's Flappy Bird</title>
+ <link rel="stylesheet" href="../assets/style.css" />
+ <link rel="stylesheet" href="../lib/bootstrap.css" />
+</head>
+<body>
+ <div class="container">
+ <div class="jumbotron">
+ <h1>Bob's Flappy Bird.</h1>
+ <p>Welcome to the best flappy bird game there is!</p>
+ </div>
+ <div class="row">
+ <div class="col-xs-8">
+ <div id="game"> </div>
+ </div>
+ <div class="col-xs-4">
+ <p>The highest scorers are:</p>
+ <ul>
+ <li class="gold">Me</li>
+ <li class="score">Myself</li>
+ <li class="score">I</li>
+ </ul>
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-md-4">
+ <img src="../assets/screenshotStart.png"
+ class="img-thumbnail img-responsive" />
+ </div>
+ <div class="col-md-4">
+ <img src="../assets/screenshot.png"
+ class="img-thumbnail img-responsive" />
+ </div>
+ <div class="col-md-4">
+ <img src="../assets/screenshotOver.png"
+ class="img-thumbnail img-responsive" />
+ </div>
+ </div>
+ </div>
+ <div id="greeting">
+45
+D
+ <h3>Save your score</h3>
+ <form id="greeting-form" class="form-inline">
+ <div class="form-group">
+ <label for="fullName">What's your name?</label>
+ <input type="text" id="fullName"
+ name="fullName" class="form-control" placeholder="Bob">
+ <label for="email">What's your email?</label>
+ <input type="email" id="email"
+ name="email" class="form-control">
+ <input type="hidden" id="score"
+ name="score" value="0">
+ </div>
+ <button class="btn btn-default" type="submit">OK</button>
+ </form>
+ </div>
+ <script src="../lib/jquery.js"></script>
+ <script src="../lib/phaser.min.js"></script>
+ <script src="../js/flappy.js"></script>
+</body>
+</html>
+jQuery("#greeting-form").on("submit", function(event_details) {
+ var greeting = "Hello ";
+ var name = jQuery("#fullName").val();
+ var greeting_message = greeting + name;
+ jQuery("#greeting-form").hide();
+ jQuery("#greeting").append("<p>" + greeting_message + " (" +
+ jQuery("#email").val() + "): " + jQuery("#score").val() + "</p>");
+ event_details.preventDefault();
+});
+function game_over() {
+ game.destroy();
+ $("#score").val(score);
+ $("#greeting").show();
+}
+h1 {
+ color: darkblue;
+}
+.score {
+color: gray;
+}
+.gold {
+color: gold;
+}
+#gameLink {
+ text-align: center;
+ border: 1px solid gray;
+}
+#greeting {
+display: none;
+position: absolute;
+left: 40%;
+top: 40%;
+background: #fff;
+width: 350px;
+height: 200px;
+border: 2px solid gray;
+border-radius: 5px;
+padding: 20px;
+}
